@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="4.656" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Shrabanti\OneDrive\Documents\Coding Framework\API coding Framework\APIDemoProject\target\test-classes;C:\Users\Shrabanti\OneDrive\Documents\Coding Framework\API coding Framework\APIDemoProject\target\classes;C:\Users\Shrabanti\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\Shrabanti\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\Shrabanti\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\Shrabanti\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\Shrabanti\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Shrabanti\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Shrabanti\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Shrabanti\.m2\repository\io\rest-assured\rest-assured\6.0.0\rest-assured-6.0.0.jar;C:\Users\Shrabanti\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\Shrabanti\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\Shrabanti\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Shrabanti\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Shrabanti\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Shrabanti\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Shrabanti\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Shrabanti\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Shrabanti\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Shrabanti\.m2\repository\io\rest-assured\json-path\6.0.0\json-path-6.0.0.jar;C:\Users\Shrabanti\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\Shrabanti\.m2\repository\io\rest-assured\rest-assured-common\6.0.0\rest-assured-common-6.0.0.jar;C:\Users\Shrabanti\.m2\repository\io\rest-assured\xml-path\6.0.0\xml-path-6.0.0.jar;C:\Users\Shrabanti\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\Shrabanti\.m2\repository\org\apache\logging\log4j\log4j-core\2.26.1\log4j-core-2.26.1.jar;C:\Users\Shrabanti\.m2\repository\org\apache\logging\log4j\log4j-api\2.26.1\log4j-api-2.26.1.jar;C:\Users\Shrabanti\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\Shrabanti\AppData\Local\Temp\surefire2435611156473699687\surefirebooter-20260720032416629_3.jar C:\Users\Shrabanti\AppData\Local\Temp\surefire2435611156473699687 2026-07-20T03-24-16_519-jvmRun1 surefire-20260720032416629_1tmp surefire_0-20260720032416629_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Shrabanti\OneDrive\Documents\Coding Framework\API coding Framework\APIDemoProject\target\test-classes;C:\Users\Shrabanti\OneDrive\Documents\Coding Framework\API coding Framework\APIDemoProject\target\classes;C:\Users\Shrabanti\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\Shrabanti\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\Shrabanti\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\Shrabanti\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\Shrabanti\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Shrabanti\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Shrabanti\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Shrabanti\.m2\repository\io\rest-assured\rest-assured\6.0.0\rest-assured-6.0.0.jar;C:\Users\Shrabanti\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\Shrabanti\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\Shrabanti\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Shrabanti\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Shrabanti\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Shrabanti\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Shrabanti\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Shrabanti\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Shrabanti\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Shrabanti\.m2\repository\io\rest-assured\json-path\6.0.0\json-path-6.0.0.jar;C:\Users\Shrabanti\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\Shrabanti\.m2\repository\io\rest-assured\rest-assured-common\6.0.0\rest-assured-common-6.0.0.jar;C:\Users\Shrabanti\.m2\repository\io\rest-assured\xml-path\6.0.0\xml-path-6.0.0.jar;C:\Users\Shrabanti\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\Shrabanti\.m2\repository\org\apache\logging\log4j\log4j-core\2.26.1\log4j-core-2.26.1.jar;C:\Users\Shrabanti\.m2\repository\org\apache\logging\log4j\log4j-api\2.26.1\log4j-api-2.26.1.jar;C:\Users\Shrabanti\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Shrabanti"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-25.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Shrabanti\OneDrive\Documents\Coding Framework\API coding Framework\APIDemoProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Shrabanti\AppData\Local\Temp\surefire2435611156473699687\surefirebooter-20260720032416629_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.2+10-LTS-69"/>
+    <property name="user.name" value="Shrabanti"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Shrabanti\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SHRABA~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.2"/>
+    <property name="user.dir" value="C:\Users\Shrabanti\OneDrive\Documents\Coding Framework\API coding Framework\APIDemoProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Shrabanti\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Shrabanti\bin;C:\Users\Shrabanti\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.10.v20260205-0638\jre\bin\server;C:\Users\Shrabanti\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.10.v20260205-0638\jre\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python314\Scripts;C:\Python314;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-25.0.2\bin;C:\Users\Shrabanti\Documents\commandlinetools-win-14742923_latest\cmdline-tools\bin\$ANDROID_SDK_ROOT\platform-tools;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.16\bin;C:\Users\Shrabanti\AppData\Local\Microsoft\WindowsApps;C:\Users\Shrabanti\AppData\Roaming\npm;C:\Users\Shrabanti\AppData\Local\Programs\Microsoft VS Code\bin;C:\Windows\System32;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.0.2+10-LTS-69"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+    <property name="testng" value="testng"/>
+  </properties>
+  <testcase name="createAccountTest" classname="com.api.tests.createAccountTest" time="2.222">
+    <system-out><![CDATA[shrabantius@gmail.com03:24:19.121 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+03:24:19.122 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+03:24:19.122 [main] INFO  com.api.filters.LoggingFilter - Request Payload:{"username":"disha123baby","password":"disha1235","email":"shrabantius@gmail.com","firstName":"Disha","lastName":"Bhatt","mobileNumber":"9831601509"}
+03:24:19.727 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:400
+03:24:19.728 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=33
+Date=Mon, 20 Jul 2026 10:24:15 GMT
+Connection=close
+Error: Username is already taken!
+03:24:19.748 [main] INFO  com.api.filters.LoggingFilter - Request Body :Error: Username is already taken!
+Error: Username is already taken!
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+log4j:WARN No appenders could be found for logger (org.apache.http.impl.conn.BasicClientConnectionManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+  </testcase>
+  <testcase name="forgotPasswordTest" classname="com.api.tests.forgotPasswordTest" time="0.164">
+    <system-out><![CDATA[03:24:19.794 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+03:24:19.794 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+03:24:19.794 [main] INFO  com.api.filters.LoggingFilter - Request Payload:{"email":"majumdershrabanti900@gmail.com"}
+03:24:19.899 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:500
+03:24:19.899 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 20 Jul 2026 10:24:16 GMT
+Connection=close
+{
+    "timestamp": "2026-07-20 10:24:16",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/auth/forgot-password",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+03:24:19.918 [main] INFO  com.api.filters.LoggingFilter - Request Body :{
+    "timestamp": "2026-07-20 10:24:16",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/auth/forgot-password",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+{
+    "timestamp": "2026-07-20 10:24:16",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/auth/forgot-password",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getProfileInfoTest" classname="com.api.tests.getProfileRequestTest" time="0.552">
+    <system-out><![CDATA[03:24:19.934 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+03:24:19.934 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+03:24:19.934 [main] INFO  com.api.filters.LoggingFilter - Request Payload:{"username":"shrabanti","password":"disha12345"}
+03:24:20.134 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+03:24:20.135 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 20 Jul 2026 10:24:16 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJTaHJhYmFudGkiLCJpYXQiOjE3ODQ1NDMwNTYsImV4cCI6MTc4NDU0NjY1Nn0.1qxbqTEv-tdefcIIMwYVCTG58M3icDj10DgJ5i8UIXo",
+    "type": "Bearer",
+    "id": 5493,
+    "username": "Shrabanti",
+    "email": "majumdershrabanti900@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+03:24:20.137 [main] INFO  com.api.filters.LoggingFilter - Request Body :{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJTaHJhYmFudGkiLCJpYXQiOjE3ODQ1NDMwNTYsImV4cCI6MTc4NDU0NjY1Nn0.1qxbqTEv-tdefcIIMwYVCTG58M3icDj10DgJ5i8UIXo",
+    "type": "Bearer",
+    "id": 5493,
+    "username": "Shrabanti",
+    "email": "majumdershrabanti900@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJTaHJhYmFudGkiLCJpYXQiOjE3ODQ1NDMwNTYsImV4cCI6MTc4NDU0NjY1Nn0.1qxbqTEv-tdefcIIMwYVCTG58M3icDj10DgJ5i8UIXo
+03:24:20.215 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+03:24:20.215 [main] INFO  com.api.filters.LoggingFilter - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJTaHJhYmFudGkiLCJpYXQiOjE3ODQ1NDMwNTYsImV4cCI6MTc4NDU0NjY1Nn0.1qxbqTEv-tdefcIIMwYVCTG58M3icDj10DgJ5i8UIXo
+Accept=*/*
+03:24:20.215 [main] INFO  com.api.filters.LoggingFilter - Request Payload:null
+03:24:20.361 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+03:24:20.361 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 20 Jul 2026 10:24:16 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+{
+    "id": 5493,
+    "username": "Shrabanti",
+    "email": "majumdershrabanti900@gmail.com",
+    "firstName": "ShrabantiBABY",
+    "lastName": "Majumder",
+    "mobileNumber": "9874818447"
+}
+03:24:20.364 [main] INFO  com.api.filters.LoggingFilter - Request Body :{
+    "id": 5493,
+    "username": "Shrabanti",
+    "email": "majumdershrabanti900@gmail.com",
+    "firstName": "ShrabantiBABY",
+    "lastName": "Majumder",
+    "mobileNumber": "9874818447"
+}
+{
+    "id": 5493,
+    "username": "Shrabanti",
+    "email": "majumdershrabanti900@gmail.com",
+    "firstName": "ShrabantiBABY",
+    "lastName": "Majumder",
+    "mobileNumber": "9874818447"
+}
+03:24:20.368 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+03:24:20.368 [main] INFO  com.api.filters.LoggingFilter - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJTaHJhYmFudGkiLCJpYXQiOjE3ODQ1NDMwNTYsImV4cCI6MTc4NDU0NjY1Nn0.1qxbqTEv-tdefcIIMwYVCTG58M3icDj10DgJ5i8UIXo
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJTaHJhYmFudGkiLCJpYXQiOjE3ODQ1NDMwNTYsImV4cCI6MTc4NDU0NjY1Nn0.1qxbqTEv-tdefcIIMwYVCTG58M3icDj10DgJ5i8UIXo
+03:24:20.369 [main] INFO  com.api.filters.LoggingFilter - Request Payload:null
+03:24:20.464 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+03:24:20.464 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 20 Jul 2026 10:24:16 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+{
+    "id": 5493,
+    "username": "Shrabanti",
+    "email": "majumdershrabanti900@gmail.com",
+    "firstName": "ShrabantiBABY",
+    "lastName": "Majumder",
+    "mobileNumber": "9874818447"
+}
+03:24:20.466 [main] INFO  com.api.filters.LoggingFilter - Request Body :{
+    "id": 5493,
+    "username": "Shrabanti",
+    "email": "majumdershrabanti900@gmail.com",
+    "firstName": "ShrabantiBABY",
+    "lastName": "Majumder",
+    "mobileNumber": "9874818447"
+}
+Shrabanti
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest" classname="com.api.tests.LoginAPITest" time="0.772">
+    <system-out><![CDATA[03:24:20.474 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+03:24:20.475 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+03:24:20.475 [main] INFO  com.api.filters.LoggingFilter - Request Payload:{"username": "shrabanti","password": "disha12345"}
+03:24:20.765 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+03:24:20.765 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 20 Jul 2026 10:24:16 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJTaHJhYmFudGkiLCJpYXQiOjE3ODQ1NDMwNTYsImV4cCI6MTc4NDU0NjY1Nn0.1qxbqTEv-tdefcIIMwYVCTG58M3icDj10DgJ5i8UIXo",
+    "type": "Bearer",
+    "id": 5493,
+    "username": "Shrabanti",
+    "email": "majumdershrabanti900@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+03:24:20.767 [main] INFO  com.api.filters.LoggingFilter - Request Body :{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJTaHJhYmFudGkiLCJpYXQiOjE3ODQ1NDMwNTYsImV4cCI6MTc4NDU0NjY1Nn0.1qxbqTEv-tdefcIIMwYVCTG58M3icDj10DgJ5i8UIXo",
+    "type": "Bearer",
+    "id": 5493,
+    "username": "Shrabanti",
+    "email": "majumdershrabanti900@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJTaHJhYmFudGkiLCJpYXQiOjE3ODQ1NDMwNTYsImV4cCI6MTc4NDU0NjY1Nn0.1qxbqTEv-tdefcIIMwYVCTG58M3icDj10DgJ5i8UIXo",
+    "type": "Bearer",
+    "id": 5493,
+    "username": "Shrabanti",
+    "email": "majumdershrabanti900@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+Path in response: null
+]]></system-out>
+  </testcase>
+  <testcase name="resetPasswordTest" classname="com.api.tests.ResetPasswordTest" time="0.222">
+    <system-out><![CDATA[03:24:21.261 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+03:24:21.262 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+03:24:21.262 [main] INFO  com.api.filters.LoggingFilter - Request Payload:{"token":"17ae4bc2-92f6-486f-a5f6-a344545c8cfc","newPassword":"disha12345","confirmPassword":"disha12345"}
+03:24:21.362 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:400
+03:24:21.363 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 20 Jul 2026 10:24:17 GMT
+Connection=close
+{
+    "message": "Invalid reset token"
+}
+03:24:21.366 [main] INFO  com.api.filters.LoggingFilter - Request Body :{
+    "message": "Invalid reset token"
+}
+{
+    "message": "Invalid reset token"
+}
+{"token":"17ae4bc2-92f6-486f-a5f6-a344545c8cfc","newPassword":"disha12345","confirmPassword":"disha12345"}
+]]></system-out>
+  </testcase>
+  <testcase name="getProfileInfoTest" classname="com.api.tests.UpdateProfileTest" time="0.32">
+    <system-out><![CDATA[03:24:21.385 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+03:24:21.385 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+03:24:21.385 [main] INFO  com.api.filters.LoggingFilter - Request Payload:{"username":"shrabanti","password":"disha12345"}
+03:24:21.553 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+03:24:21.553 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 20 Jul 2026 10:24:17 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJTaHJhYmFudGkiLCJpYXQiOjE3ODQ1NDMwNTcsImV4cCI6MTc4NDU0NjY1N30.fJCk2zoxFiROXIwQcUUurxdBnsMtR3PXTL6LWNiJX9E",
+    "type": "Bearer",
+    "id": 5493,
+    "username": "Shrabanti",
+    "email": "majumdershrabanti900@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+03:24:21.555 [main] INFO  com.api.filters.LoggingFilter - Request Body :{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJTaHJhYmFudGkiLCJpYXQiOjE3ODQ1NDMwNTcsImV4cCI6MTc4NDU0NjY1N30.fJCk2zoxFiROXIwQcUUurxdBnsMtR3PXTL6LWNiJX9E",
+    "type": "Bearer",
+    "id": 5493,
+    "username": "Shrabanti",
+    "email": "majumdershrabanti900@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJTaHJhYmFudGkiLCJpYXQiOjE3ODQ1NDMwNTcsImV4cCI6MTc4NDU0NjY1N30.fJCk2zoxFiROXIwQcUUurxdBnsMtR3PXTL6LWNiJX9E
+03:24:21.565 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+03:24:21.565 [main] INFO  com.api.filters.LoggingFilter - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJTaHJhYmFudGkiLCJpYXQiOjE3ODQ1NDMwNTcsImV4cCI6MTc4NDU0NjY1N30.fJCk2zoxFiROXIwQcUUurxdBnsMtR3PXTL6LWNiJX9E
+Accept=*/*
+03:24:21.567 [main] INFO  com.api.filters.LoggingFilter - Request Payload:null
+03:24:21.661 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+03:24:21.662 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 20 Jul 2026 10:24:17 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+{
+    "id": 5493,
+    "username": "Shrabanti",
+    "email": "majumdershrabanti900@gmail.com",
+    "firstName": "ShrabantiBABY",
+    "lastName": "Majumder",
+    "mobileNumber": "9874818447"
+}
+03:24:21.663 [main] INFO  com.api.filters.LoggingFilter - Request Body :{
+    "id": 5493,
+    "username": "Shrabanti",
+    "email": "majumdershrabanti900@gmail.com",
+    "firstName": "ShrabantiBABY",
+    "lastName": "Majumder",
+    "mobileNumber": "9874818447"
+}
+{
+    "id": 5493,
+    "username": "Shrabanti",
+    "email": "majumdershrabanti900@gmail.com",
+    "firstName": "ShrabantiBABY",
+    "lastName": "Majumder",
+    "mobileNumber": "9874818447"
+}
+03:24:21.684 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+03:24:21.684 [main] INFO  com.api.filters.LoggingFilter - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJTaHJhYmFudGkiLCJpYXQiOjE3ODQ1NDMwNTcsImV4cCI6MTc4NDU0NjY1N30.fJCk2zoxFiROXIwQcUUurxdBnsMtR3PXTL6LWNiJX9E
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJTaHJhYmFudGkiLCJpYXQiOjE3ODQ1NDMwNTcsImV4cCI6MTc4NDU0NjY1N30.fJCk2zoxFiROXIwQcUUurxdBnsMtR3PXTL6LWNiJX9E
+Content-Type=application/json
+03:24:21.684 [main] INFO  com.api.filters.LoggingFilter - Request Payload:{"firstName":"ShrabantiBABY","lastName":"Majumder","email":"majumdershrabanti900@gmail.com","mobileNumber":"9874818447"}
+03:24:21.782 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+03:24:21.783 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 20 Jul 2026 10:24:17 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+{
+    "id": 5493,
+    "username": "Shrabanti",
+    "email": "majumdershrabanti900@gmail.com",
+    "firstName": "ShrabantiBABY",
+    "lastName": "Majumder",
+    "mobileNumber": "9874818447"
+}
+03:24:21.783 [main] INFO  com.api.filters.LoggingFilter - Request Body :{
+    "id": 5493,
+    "username": "Shrabanti",
+    "email": "majumdershrabanti900@gmail.com",
+    "firstName": "ShrabantiBABY",
+    "lastName": "Majumder",
+    "mobileNumber": "9874818447"
+}
+{
+    "id": 5493,
+    "username": "Shrabanti",
+    "email": "majumdershrabanti900@gmail.com",
+    "firstName": "ShrabantiBABY",
+    "lastName": "Majumder",
+    "mobileNumber": "9874818447"
+}
+]]></system-out>
+  </testcase>
+</testsuite>

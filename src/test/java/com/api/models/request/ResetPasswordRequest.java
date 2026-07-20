@@ -1,0 +1,40 @@
+package com.api.models.request;
+
+public class ResetPasswordRequest {
+
+	
+	
+	private String token;
+    private String newPassword;
+    private String confirmPassword;
+
+    public ResetPasswordRequest(String token, String newPassword, String confirmPassword) {
+        this.token = token;
+        this.newPassword = newPassword;
+        this.confirmPassword = confirmPassword;
+    }
+	
+	public String getToken() {
+		return token;
+	}
+	public void setToken(String token) {
+		this.token = token;
+	}
+	public String getNewPassword() {
+		return newPassword;
+	}
+	public void setNewPassword(String password) {
+		this.newPassword = password;
+	}
+	public String getConfirmPassword() {
+		return confirmPassword;
+	}
+	public void setConfirmPassword(String confirmPassword) {
+		this.confirmPassword = confirmPassword;
+	}
+	
+	
+	
+	
+	
+}

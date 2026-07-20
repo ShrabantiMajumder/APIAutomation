@@ -1,0 +1,70 @@
+package com.api.models.response;
+
+import java.awt.List;
+
+public class LoginResponse {
+	
+	
+	private String token;
+	private String type;
+	private int id;
+	private String username;
+	private String email;
+	private java.util.List<String> roles;
+	public String getToken() {
+		return token;
+	}
+	public void setToken(String token) {
+		this.token = token;
+	}
+	public String getType() {
+		return type;
+	}
+	
+	public LoginResponse() {
+		
+	}
+	public LoginResponse(String token, String type, int id, String username, String email,
+			java.util.List<String> roles) {
+		super();
+		this.token = token;
+		this.type = type;
+		this.id = id;
+		this.username = username;
+		this.email = email;
+		this.roles = roles;
+	}
+	public void setType(String type) {
+		this.type = type;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getusername() {
+		return username;
+	}
+	public void setusername(String username) {
+		this.username = username;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public java.util.List<String> getRoles() {
+		return roles;
+	}
+	public void setRoles(java.util.List<String> roles) {
+		this.roles = roles;
+	}
+	@Override
+	public String toString() {
+		return "LoginResponse [token=" + token + ", type=" + type + ", id=" + id + ", username=" + username + ", email="
+				+ email + ", roles=" + roles + "]";
+	}
+
+}
